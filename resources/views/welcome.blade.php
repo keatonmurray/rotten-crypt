@@ -18,61 +18,63 @@
         <title>{{config('app.name')}}</title>
     </head>
     <body>
-        <nav class="navbar navbar-expand-lg d-lg-flex d-block py-4" style="background: #000;">
-            <div class="container">
-              <a href="/" class="navbar-brand text-white fs-2 fw-bold text-uppercase" id="navTitle" href="#">Rotten Crypt</a href="/">
-              <button class="navbar-toggler" style="padding-top: -5px" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
-                <span><i class="fa-solid fa-bars" style="color: #ffffff;"></i></span>
-              </button>
-              <style>
-                #navbarsExample07.in, #navbarsExample07.collapsing {
-                  display: inline-block;
-                  width: 100%;
-                  min-width: 40%;
-                }
-              </style>
-              <div class="collapse navbar-collapse" id="navbarsExample07">
-                <ul class="navbar-nav mt-1">
-                  <li class="nav-item">
-                    <a class="nav-link" href="/" id="active">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="/discover">News</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link"href="">Discographies</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link"href="">Podcasts</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link"href="">Store</a>
-                  </li>
-                </ul>
-                <a class="btn text-uppercase" id="signupBtn" href="">Join at your own risk</a>
-              </div>
-            </div>
-        </nav>
-        <div class="container col-xxl-8 px-4 py-5">
-            <div class="row flex-lg-row-reverse align-items-center g-5 py-1 d-block top-0">
-                <div class="col-10 col-sm-8 col-lg-6"></div>
-                    <div class="col-lg-6">
-                        <h1 class="display-1 fw-bold gs-2 lh-1 mb-3 text-white" id="danvilleFont">Welcome to the Crypt!</h1>
-                        <p class="lead fs-5 text-white" id="danvilleFont">Death Metal release updates, news, music videos, live shows, podcasts, and more. </p>
-                        <br>
-                        <div class="d-grid justify-content-md-start">
-                            <a href="/browse-music" type="button" class="btn btn-light btn-lg px-4 me-md-2">
-                            <span id="danvilleFont">
-                                <i class="fa-solid fa-circle-play"></i>  Browse Music
-                            </span>
-                            </a>
+        <div id="main">
+            <nav class="navbar navbar-expand-lg d-lg-flex d-block py-4" style="background: #000;">
+                <div class="container">
+                  <a href="/" class="navbar-brand text-white fs-2 fw-bold text-uppercase" id="danville" href="#">Rotten Crypt</a href="/">
+                  <button class="navbar-toggler" style="padding-top: -5px" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
+                    <span><i class="fa-solid fa-bars" style="color: #ffffff;"></i></span>
+                  </button>
+                  <style>
+                    #navbarsExample07.in, #navbarsExample07.collapsing {
+                      display: inline-block;
+                      width: 100%;
+                      min-width: 40%;
+                    }
+                  </style>
+                  <div class="collapse navbar-collapse" id="navbarsExample07">
+                    <ul class="navbar-nav mt-1">
+                      <li class="nav-item">
+                        <a class="nav-link active" href="" id="danville">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href=""  id="danville">News</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="" id="danville">Discographies</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link"href="" id="danville">Podcasts</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link"href="" id="danville">Store</a>
+                      </li>
+                    </ul>
+                    <a class="btn text-uppercase" id="danville" href="">Join at your own risk</a>
+                  </div>
+                </div>
+            </nav>
+            <div class="container col-xxl-8 px-4 py-5">
+                <div class="row flex-lg-row-reverse align-items-center g-5 py-1 d-block top-0">
+                    <div class="col-10 col-sm-8 col-lg-6"></div>
+                        <div class="col-lg-6">
+                            <h1 class="display-1 fw-bold gs-2 lh-1 mb-3 text-white" id="danville">Welcome to the Crypt!</h1>
+                            <p class="lead fs-5 text-white" id="danville">Death Metal release updates, news, music videos, live shows, podcasts, and more. </p>
+                            <br>
+                            <div class="d-grid justify-content-md-start">
+                                <a href="/browse-music" type="button" class="btn btn-light btn-lg px-4 me-md-2">
+                                <span id="danville">
+                                    <i class="fa-solid fa-circle-play"></i>  Browse Music
+                                </span>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="image mx-5 d-block mx-4">
-            <img src="{{asset('assets/images/riddick2.png')}}">
+            <div class="image mx-5 d-block mx-4">
+                <img src="{{asset('assets/images/riddick.png')}}">
+            </div>
         </div>
     </body>
 </html>

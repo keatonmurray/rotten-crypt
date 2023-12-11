@@ -1,0 +1,110 @@
+body {
+    overflow-x: hidden;
+    height: 100vh;
+}
+
+/* FONTS */
+
+#danville {
+    font-family: 'DJB WERECOW OF DANVILLE', sans-serif;    
+}
+
+#bold {
+    font-family: 'The Bold Font', sans-serif;                                         
+}
+
+
+/* BODY LAYOUTS */
+
+#main {
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    background: #000;
+    position: relative;
+    z-index: 1;
+}
+
+/* BACKGROUND IMAGES */
+
+#main .image {
+    max-width: 100%;
+    height: auto;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#main .image img {
+    height: auto;
+    max-width: 100%;
+}
+
+/* NAVIGATION BAR */
+
+.container .navbar {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+nav .container .collapse  {
+    width: 100%;
+}
+
+nav .container .collapse .navbar-nav  {
+    margin-left: auto;
+    margin-top: 35px;
+}
+
+nav .container .collapse .navbar-nav .nav-item {
+    padding: 12px;
+    transition: 0s;
+}
+
+nav .container .collapse .navbar-nav .nav-item a {
+
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    border-bottom: 2px solid transparent;
+    transition: .8s;
+    padding: auto;
+    text-transform: uppercase;          
+}
+
+nav .container .collapse ul li:not(:first-child) a:hover, nav .container .collapse ul li:not(:last-child) a:focus {
+
+    border-bottom: 2px solid rgb(179, 0, 0);
+}
+
+nav .container .collapse .navbar-nav .nav-item .active {
+
+    border-bottom: 2px solid rgb(179, 0, 0);
+}
+
+.navbar .container .btn {
+
+    background: #fff;;
+    color: #000;
+    border: 2px solid #fff;
+    padding: 9px 20px;
+    height: auto;
+    border-radius: 30px;
+    line-height: 1.4;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: auto;
+    margin-top: 10px;
+}
+
+.navbar .container .btn:hover {
+
+    border: 1px solid #fff;
+    color: black;
+    background: #e7e7e7;
+    transition: .8s;
+}
