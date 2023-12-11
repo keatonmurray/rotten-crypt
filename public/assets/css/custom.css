@@ -13,6 +13,13 @@ body {
     font-family: 'The Bold Font', sans-serif;                                         
 }
 
+/* FONT COLORS */
+
+#danvilleRed {
+    font-family: 'DJB WERECOW OF DANVILLE', sans-serif;   
+    color:  rgb(199, 0, 0);
+}
+
 
 /* BODY LAYOUTS */
 

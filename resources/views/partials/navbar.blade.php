@@ -17,7 +17,7 @@
             <a class="nav-link active" href="" id="danville">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href=""  id="danville">News</a>
+            <a class="nav-link" href="/news"  id="danville">News</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="" id="danville">Discographies</a>
@@ -29,7 +29,7 @@
             <a class="nav-link" href="" id="danville">Store</a>
           </li>
         </ul>
-        <a class="btn text-uppercase" id="danville" href="">Join at your own risk</a>
+        <a class="btn text-uppercase" id="danvilleRed" href="">Join at your own risk</a>
       </div>
     </div>
 </nav>

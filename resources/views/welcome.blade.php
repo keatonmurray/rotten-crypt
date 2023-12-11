@@ -6,7 +6,7 @@
             <div class="row flex-lg-row-reverse align-items-center g-5 py-1 d-block top-0">
                 <div class="col-10 col-sm-8 col-lg-6"></div>
                     <div class="col-lg-6">
-                        <h1 class="display-1 fw-bold gs-2 lh-1 mb-3 text-white" id="danville">Welcome to the Crypt!</h1>
+                        <h1 class="display-1 fw-bold gs-2 lh-1 mb-3 text-white" id="danvilleRed">Welcome to the Crypt!</h1>
                         <p class="lead fs-5 text-white" id="danville">Death Metal release updates, news, music videos, live shows, podcasts, and more. </p>
                         <br>
                         <div class="d-grid justify-content-md-start">
