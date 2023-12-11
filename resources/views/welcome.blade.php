@@ -37,7 +37,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="image mx-3 d-block my-2">
+                <div class="image d-block mx-5 my-2">
                     <img src="{{asset('assets/images/riddick.png')}}">
                 </div>
             </div>
