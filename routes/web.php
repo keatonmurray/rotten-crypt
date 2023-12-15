@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\NewsController;
 use App\Http\Controllers\MusicController;
 use App\Http\Controllers\PagesController;
+use App\Http\Controllers\StoreController;
 use App\Http\Controllers\PodcastController;
 
 /*
@@ -21,3 +22,4 @@ Route::get('/', [PagesController::class, 'index']);
 Route::get('/news', [NewsController::class, 'index']);
 Route::get('/discographies', [MusicController::class, 'index']);
 Route::get('/podcasts', [PodcastController::class, 'index']);
+Route::get('/webstore', [StoreController::class, 'index']);
