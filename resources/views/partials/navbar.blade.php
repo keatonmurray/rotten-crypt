@@ -14,7 +14,7 @@
       <div class="collapse navbar-collapse" id="navbarsExample07">
         <ul class="navbar-nav mt-1">
           <li class="nav-item">
-            <a class="nav-link active" href="" id="danville">Home</a>
+            <a class="nav-link active" href="/" id="danville">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="/news"  id="danville">News</a>

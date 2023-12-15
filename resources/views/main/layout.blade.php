@@ -18,6 +18,9 @@
         <title>{{config('app.name')}}</title>
     </head>
     <body>
-        @yield('content')
+        <div id="main">
+            @include('partials.navbar')
+            @yield('content')
+        </div>
     </body>
 </html>
