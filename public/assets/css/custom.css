@@ -69,7 +69,6 @@ nav .container .collapse .navbar-nav  {
 
 nav .container .collapse .navbar-nav .nav-item {
     padding: 12px;
-    transition: 0s;
 }
 
 nav .container .collapse .navbar-nav .nav-item a {
@@ -111,8 +110,5 @@ nav .container .collapse .navbar-nav .nav-item .active {
 
 .navbar .container .btn:hover {
 
-    border: 1px solid #fff;
-    color: black;
     background: #e7e7e7;
-    transition: .8s;
 }

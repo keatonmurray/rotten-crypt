@@ -1,6 +1,7 @@
 @extends('main.layout')
 @section('content')
-    <div class="container">
-        <h4 class="text-white">Music page</h4>
+    <div class="container text-white text-center">
+        <h4 id="danville">New Releases</h4>
+        @include('partials.breadcrumbs')
     </div>
 @endsection
