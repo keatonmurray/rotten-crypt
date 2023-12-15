@@ -23,7 +23,7 @@
             <a class="nav-link" href="/discographies" id="danville">Discographies</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="" id="danville">Podcasts</a>
+            <a class="nav-link" href="/podcasts" id="danville">Podcasts</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="" id="danville">Store</a>
